@@ -3,8 +3,6 @@ from argparse import ArgumentParser
 import re
 import sys
 
-
-"""python enron.py emails_10k.txt"""
 class Server():
     """
     This class stores the data for all emails found in the dataset
