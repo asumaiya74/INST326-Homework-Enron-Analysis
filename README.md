@@ -1,4 +1,4 @@
-# Instructions
+# Background
 For this homework assignment, you will parse through a set of 10,000 emails for the purpose of pre- analysis processing. These emails are a sample from a collection of around 500,000 emails known as the “Enron Email Dataset”. This dataset contains emails sent by employees of Enron after the collapse of the company. The entire dataset can be found here: https://www.kaggle.com/wcukierski/enron-email-dataset
 
 In order to parse an email, you must first be familiar with the structure of emails. When we send emails we are not only sending heading and body content information, we are also sending metadata that describes the email structure in detail. This is known as the “header” and will contain data relating to the sender, receivers, CC information, routing information, etc. This header is formatted enough that we can use regular expressions in order to identify the information that we are interested in.
